@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AppXamarin.Views;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace AppXamarin
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Test3Page();
         }
 
         protected override void OnStart()
